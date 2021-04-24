@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  /* animation: App-logo-spin infinite 20s linear; */
+  height: 100px;
+}
+
+.App-avatar {
+    height: 50px;
+}
+
+.App-header {
+  background-color: #000;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.userContainer {
+    float: left;
+    color: yellowgreen;
+    font-weight: bold;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Login page CSS */
+.container {
+    padding: 16px;
+    max-width: 500px;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 20%;
+    border-radius: 50%;
+}
+
+.cancelbtn {
+    background-color: gray;
+}
+
+.errorContainer {
+    color: red;
+}
+
+/* CSS for Planets */
+.circle {
+  position: relative;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  background-image: url(../img/Carina_Dwarf_Galaxy.jpg);
+  background-size: contain;
+  color: white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.19);
+}
+
+.planetName {
+    position: absolute;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.infoContainer {
+    font-size: small;
+    width: 200px;
+    color: yellow;
+    background: black;
+    opacity: 0.8;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.planetContainer {
+    margin: 20px;
+    display: inline-flex;
+}
+
+
+.logoutContainer {
+    float: right;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.quote {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: monospace;
+    font-style: italic;
+    padding: 30px;
+    display: block;
+}
